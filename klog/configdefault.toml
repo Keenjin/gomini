@@ -1,0 +1,15 @@
+# 日志显示级别，默认是INFO级别以上。有4个级别可选：DEBUG、INFO、WARN、ERROR
+Level = "INFO"
+
+# 日志路径和crash路径，可使用环境变量，例如：${localappdata}\logs\。默认是在运行目录根路径下
+LogDir = "logs"
+CrashLogDir = "crashes"
+
+# 日志的基础名称，最终的日志文件名由：基础名称 + 日期时间组成。不填写，会使用进程名
+FileBaseName = ""
+
+# 日志最多保存的天数
+MaxDays = 7
+
+# 自定义添加的日志前缀
+CustomPrefix = ""
