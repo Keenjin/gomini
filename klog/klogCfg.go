@@ -2,8 +2,8 @@ package klog
 
 import (
 	"fmt"
-	"gomini/kprocess"
-	"gomini/ktoml"
+	"github.com/Keenjin/gomini/kprocess"
+	"github.com/Keenjin/gomini/ktoml"
 	"os"
 	"time"
 )
