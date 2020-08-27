@@ -1,6 +1,6 @@
 package main
 
-import "gomini/klog"
+import "../klog"
 
 func main() {
 	klog.LogOpen("klog\\configdefault.toml")
