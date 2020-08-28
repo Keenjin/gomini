@@ -1,9 +1,9 @@
 package klog
 
 import (
-	"../kprocess"
-	"../ktoml"
 	"fmt"
+	"gomini/kprocess"
+	"gomini/ktoml"
 	"os"
 	"time"
 )

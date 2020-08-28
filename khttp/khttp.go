@@ -1,10 +1,10 @@
 package khttp
 
 import (
-	"../kfile"
 	"bytes"
 	"crypto/tls"
 	"errors"
+	"gomini/kfile"
 	"io"
 	"io/ioutil"
 	"net/http"
