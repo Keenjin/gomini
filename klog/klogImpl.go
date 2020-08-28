@@ -1,8 +1,8 @@
 package klog
 
 import (
-	"gomini/kfile"
-	"gomini/kprocess"
+	"github.com/keenjin/gomini/kfile"
+	"github.com/keenjin/gomini/kprocess"
 	"io"
 	"log"
 	"os"

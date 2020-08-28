@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/tls"
 	"errors"
-	"gomini/kfile"
+	"github.com/keenjin/gomini/kfile"
 	"io"
 	"io/ioutil"
 	"net/http"
